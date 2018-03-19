@@ -9,15 +9,11 @@ public class GameOverController : MonoBehaviour {
 	
 	public bool gameOver;
 
-	void Start () {
-		
-	}
-	
 	void Update () {
 		if (gameOver) {
 			gameOverText.SetActive(true);
 
-			if (Input.GetKeyDown(KeyCode.R)) {
+			if (Input.GetKeyDown(KeyCode.Return)) {
 				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			}
 		}

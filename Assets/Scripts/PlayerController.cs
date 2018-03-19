@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
 
 	bool canMove;
 	bool canJump;
+	public bool levelCompleted;
 
 	public GameObject levelWonText;
 
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour {
 	private void Start() {
 		canMove = true;
 		canJump = true;
+		
+		levelCompleted = false;
 	}
 	
 	void Update () {
@@ -92,6 +95,7 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.tag == "EndLevel") {
 			canMove = false;
 			canJump = false;
+			levelCompleted = true;
 
 			levelWonText.SetActive(true);
 		}
