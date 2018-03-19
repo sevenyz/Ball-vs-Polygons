@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 50923502832935620}
   - component: {fileID: 114419357024088682}
   - component: {fileID: 114292119639304934}
+  - component: {fileID: 114563593083835886}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -148,3 +149,19 @@ MonoBehaviour:
   levelWonText: {fileID: 0}
   jumpForce: 2
   moveSpeed: 12
+--- !u!114 &114563593083835886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520940865596688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392b89868981f4d56b9a45d40731ed16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerColor: 0
+  whiteMat: {fileID: 2100000, guid: af106d805098d144bb30898b3ec2b345, type: 2}
+  redMat: {fileID: 2100000, guid: 07ef8f9617c21624eb0d6b875e0bd649, type: 2}
+  greenMat: {fileID: 2100000, guid: b4ad2e14ca5ee174db515a8cfffde954, type: 2}
+  blueMat: {fileID: 2100000, guid: 4d71bf1d931fe4245a5c0643f06fbc49, type: 2}

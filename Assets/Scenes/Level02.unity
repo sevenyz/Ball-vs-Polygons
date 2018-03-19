@@ -283,22 +283,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1520940865596688, guid: 5d82609c7e811584cae18a8f470dae78,
     type: 2}
   m_PrefabInternal: {fileID: 2062559022}
---- !u!114 &464686733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 464686732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 392b89868981f4d56b9a45d40731ed16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerColor: 0
-  whiteMat: {fileID: 2100000, guid: af106d805098d144bb30898b3ec2b345, type: 2}
-  redMat: {fileID: 2100000, guid: 07ef8f9617c21624eb0d6b875e0bd649, type: 2}
-  greenMat: {fileID: 2100000, guid: b4ad2e14ca5ee174db515a8cfffde954, type: 2}
-  blueMat: {fileID: 2100000, guid: 4d71bf1d931fe4245a5c0643f06fbc49, type: 2}
 --- !u!1001 &531608818
 Prefab:
   m_ObjectHideFlags: 0
@@ -1460,6 +1444,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -1528,11 +1513,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114419357024088682, guid: 5d82609c7e811584cae18a8f470dae78,
-        type: 2}
-      propertyPath: levelWonText
-      value: 
-      objectReference: {fileID: 1760617801}
     - target: {fileID: 114292119639304934, guid: 5d82609c7e811584cae18a8f470dae78,
         type: 2}
       propertyPath: gameOverText
@@ -1540,9 +1520,9 @@ Prefab:
       objectReference: {fileID: 440216609}
     - target: {fileID: 114419357024088682, guid: 5d82609c7e811584cae18a8f470dae78,
         type: 2}
-      propertyPath: moveSpeed
-      value: 12
-      objectReference: {fileID: 0}
+      propertyPath: levelWonText
+      value: 
+      objectReference: {fileID: 1760617801}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d82609c7e811584cae18a8f470dae78, type: 2}
   m_IsPrefabParent: 0
