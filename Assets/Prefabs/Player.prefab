@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114419357024088682}
   - component: {fileID: 114292119639304934}
   - component: {fileID: 114563593083835886}
+  - component: {fileID: 114679030674403154}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -146,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71752f6950c3e40789f673b7febf9d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelCompleted: 0
   levelWonText: {fileID: 0}
   jumpForce: 2
   moveSpeed: 12
@@ -155,7 +157,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1520940865596688}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 392b89868981f4d56b9a45d40731ed16, type: 3}
   m_Name: 
@@ -165,3 +167,14 @@ MonoBehaviour:
   redMat: {fileID: 2100000, guid: 07ef8f9617c21624eb0d6b875e0bd649, type: 2}
   greenMat: {fileID: 2100000, guid: b4ad2e14ca5ee174db515a8cfffde954, type: 2}
   blueMat: {fileID: 2100000, guid: 4d71bf1d931fe4245a5c0643f06fbc49, type: 2}
+--- !u!114 &114679030674403154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520940865596688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a31e8fe062d47e4a2dfa49f1bcfc39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
