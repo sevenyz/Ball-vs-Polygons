@@ -562,6 +562,11 @@ Prefab:
       propertyPath: levelWonText
       value: 
       objectReference: {fileID: 1095381038}
+    - target: {fileID: 114529840045134092, guid: b1ddae1ba5ef341caab981df0b9744e2,
+        type: 2}
+      propertyPath: startText
+      value: 
+      objectReference: {fileID: 1095381038}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1ddae1ba5ef341caab981df0b9744e2, type: 2}
   m_IsPrefabParent: 0
@@ -702,6 +707,10 @@ Prefab:
     - target: {fileID: 224571910900962950, guid: f6ec4aea7746e43429084b4304598147,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536085746683740, guid: f6ec4aea7746e43429084b4304598147, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
