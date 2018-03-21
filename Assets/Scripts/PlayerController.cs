@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour {
 
 	GameOverController controller;
 	ColorChanger colorChanger;
-	
+
 	Rigidbody2D rb2d;
 
 	public bool canMove;
