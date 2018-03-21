@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4458977450699236}
   m_Layer: 0
-  m_Name: BcakGround3
+  m_Name: BackGround3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

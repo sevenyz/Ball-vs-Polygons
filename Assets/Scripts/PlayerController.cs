@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour {
 			other.gameObject.tag == "GreenWall" || 
 			other.gameObject.tag == "BlueWall") {
 				
-				colorChanger.ChangeColor(ColorChanger.PlayerColor.White, colorChanger.whiteMat);
+				colorChanger.ChangeColor(ColorChanger.PlayerColor.White, colorChanger.whiteSprite);
 		}
 	}
 

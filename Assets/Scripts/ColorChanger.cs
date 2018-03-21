@@ -4,33 +4,37 @@ using UnityEngine;
 
 public class ColorChanger : MonoBehaviour {
 
-	MeshRenderer meshRenderer;
+	//MeshRenderer meshRenderer;
+	SpriteRenderer spriteRenderer;
 
 	public enum PlayerColor { White, Red, Green, Blue };
 	public PlayerColor playerColor;
 
-	public Material whiteMat, redMat, greenMat, blueMat;
+	//public Material whiteMat, redMat, greenMat, blueMat;
+	public Sprite whiteSprite, redSprite, greenSprite, blueSprite;
 
 	void Awake () {
-		meshRenderer = GetComponent<MeshRenderer>();
+		//meshRenderer = GetComponent<MeshRenderer>();
+		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 	
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.R)) {
-			ChangeColor(PlayerColor.Red, redMat);
+			ChangeColor(PlayerColor.Red, redSprite);
 		}
 
 		if (Input.GetKeyDown(KeyCode.G)) {
-			ChangeColor(PlayerColor.Green, greenMat);
+			ChangeColor(PlayerColor.Green, greenSprite);
 		}
 
 		if (Input.GetKeyDown(KeyCode.B)) {
-			ChangeColor(PlayerColor.Blue, blueMat);
+			ChangeColor(PlayerColor.Blue, blueSprite);
 		}
 	}
 
-	public void ChangeColor (PlayerColor color, Material mat) {
+	public void ChangeColor (PlayerColor color, Sprite sprite) {
 		playerColor = color;
-		meshRenderer.material = mat;
+		spriteRenderer.sprite = sprite;
+		//meshRenderer.material = mat;
 	}
 }
