@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour {
 	
 	Rigidbody2D rb2d;
 
-	bool canMove;
-	bool canJump;
+	public bool canMove;
+	public bool canJump;
 	public bool levelCompleted;
 
 	public GameObject levelWonText;
@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	private void Start() {
-		canMove = true;
-		canJump = true;
+		canMove = false;
+		canJump = false;
 		
 		levelCompleted = false;
 	}

@@ -5246,6 +5246,11 @@ Prefab:
       propertyPath: levelWonText
       value: 
       objectReference: {fileID: 1794320603}
+    - target: {fileID: 114529840045134092, guid: b1ddae1ba5ef341caab981df0b9744e2,
+        type: 2}
+      propertyPath: pauseText
+      value: 
+      objectReference: {fileID: 1794320605}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1ddae1ba5ef341caab981df0b9744e2, type: 2}
   m_IsPrefabParent: 0
@@ -5254,6 +5259,12 @@ GameObject:
   m_PrefabParentObject: {fileID: 1033617736031556, guid: b1ddae1ba5ef341caab981df0b9744e2,
     type: 2}
   m_PrefabInternal: {fileID: 1571022976}
+--- !u!114 &1571022978 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114529840045134092, guid: b1ddae1ba5ef341caab981df0b9744e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1571022976}
+  m_Script: {fileID: 11500000, guid: 99bbfa531040843adbe46c153a648e66, type: 3}
 --- !u!1001 &1589534183
 Prefab:
   m_ObjectHideFlags: 0
@@ -6012,6 +6023,16 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114175822612705150, guid: f6ec4aea7746e43429084b4304598147,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1571022978}
+    - target: {fileID: 114175822612705150, guid: f6ec4aea7746e43429084b4304598147,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadMenu
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f6ec4aea7746e43429084b4304598147, type: 2}
   m_IsPrefabParent: 0
@@ -6028,6 +6049,11 @@ GameObject:
 --- !u!1 &1794320604 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1873742141375124, guid: f6ec4aea7746e43429084b4304598147,
+    type: 2}
+  m_PrefabInternal: {fileID: 1794320601}
+--- !u!1 &1794320605 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1956550158178598, guid: f6ec4aea7746e43429084b4304598147,
     type: 2}
   m_PrefabInternal: {fileID: 1794320601}
 --- !u!1001 &1810083560

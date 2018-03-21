@@ -117,7 +117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bbfa531040843adbe46c153a648e66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasStarted: 0
+  isPaused: 0
   startText: {fileID: 0}
+  pauseText: {fileID: 0}
 --- !u!114 &114748896300914264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71752f6950c3e40789f673b7febf9d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMove: 0
+  canJump: 0
   levelCompleted: 0
   levelWonText: {fileID: 0}
   jumpForce: 2

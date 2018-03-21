@@ -174,6 +174,12 @@ GameObject:
   m_PrefabParentObject: {fileID: 1033617736031556, guid: b1ddae1ba5ef341caab981df0b9744e2,
     type: 2}
   m_PrefabInternal: {fileID: 949285712}
+--- !u!114 &159180583 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114529840045134092, guid: b1ddae1ba5ef341caab981df0b9744e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 949285712}
+  m_Script: {fileID: 11500000, guid: 99bbfa531040843adbe46c153a648e66, type: 3}
 --- !u!4 &216289818 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4346961211714184, guid: 1626bc69fc1b5cf4f8306de59ce8e174,
@@ -567,6 +573,11 @@ Prefab:
       propertyPath: startText
       value: 
       objectReference: {fileID: 1095381038}
+    - target: {fileID: 114529840045134092, guid: b1ddae1ba5ef341caab981df0b9744e2,
+        type: 2}
+      propertyPath: pauseText
+      value: 
+      objectReference: {fileID: 1339509246}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1ddae1ba5ef341caab981df0b9744e2, type: 2}
   m_IsPrefabParent: 0
@@ -709,10 +720,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1536085746683740, guid: f6ec4aea7746e43429084b4304598147, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 114175822612705150, guid: f6ec4aea7746e43429084b4304598147,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 159180583}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f6ec4aea7746e43429084b4304598147, type: 2}
   m_IsPrefabParent: 0
@@ -915,6 +927,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c5fbda8245555a46b54681d1f7bfef7, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1339509246 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1956550158178598, guid: f6ec4aea7746e43429084b4304598147,
+    type: 2}
+  m_PrefabInternal: {fileID: 1095381037}
 --- !u!1001 &1398776691
 Prefab:
   m_ObjectHideFlags: 0
