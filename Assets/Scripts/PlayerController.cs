@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
 			rb2d.velocity = new Vector2(moveSpeed, rb2d.velocity.y);
 		}
 
-		if (Input.GetKeyDown(KeyCode.Space) && !controller.gameOver && !gameController.isPaused) {
+		if (Input.GetKeyDown(KeyCode.Space) && !controller.gameOver && !gameController.isPaused && !levelCompleted) {
 			audioManager.jumpSound.Play();
 		}
 	}

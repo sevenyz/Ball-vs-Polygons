@@ -157,6 +157,11 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 82728205177137484, guid: 8af8f3c1cfc764cfea535ed43cc592bc,
+        type: 2}
+      propertyPath: Mute
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8af8f3c1cfc764cfea535ed43cc592bc, type: 2}
   m_IsPrefabParent: 0
@@ -237,6 +242,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4664490391447616, guid: 8c5fbda8245555a46b54681d1f7bfef7,
     type: 2}
   m_PrefabInternal: {fileID: 2051550281}
+--- !u!1 &348726019 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1017610763474112, guid: f6ec4aea7746e43429084b4304598147,
+    type: 2}
+  m_PrefabInternal: {fileID: 1095381037}
 --- !u!1 &449036436
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +634,7 @@ Prefab:
         type: 2}
       propertyPath: levelWonText
       value: 
-      objectReference: {fileID: 1095381038}
+      objectReference: {fileID: 348726019}
     - target: {fileID: 114529840045134092, guid: b1ddae1ba5ef341caab981df0b9744e2,
         type: 2}
       propertyPath: audioManager
