@@ -64,7 +64,8 @@ public class PlayerController : MonoBehaviour {
 				canMove = false;
 				canJump = false;
 
-				Instantiate(explosion, transform.position, Quaternion.identity);
+				//Instantiate(explosion, transform.position, Quaternion.identity);
+				explosion.SetActive(true);
 
 				audioManager.deathSound.Play();
 			}
@@ -81,7 +82,8 @@ public class PlayerController : MonoBehaviour {
 				canMove = false;
 				canJump = false;
 
-				Instantiate(explosion, transform.position, Quaternion.identity);
+				//Instantiate(explosion, transform.position, Quaternion.identity);
+				explosion.SetActive(true);
 
 				audioManager.deathSound.Play();
 			}
@@ -98,7 +100,8 @@ public class PlayerController : MonoBehaviour {
 				canMove = false;
 				canJump = false;
 
-				Instantiate(explosion, transform.position, Quaternion.identity);
+				//Instantiate(explosion, transform.position, Quaternion.identity);
+				explosion.SetActive(true);
 
 				audioManager.deathSound.Play();
 			}
@@ -109,7 +112,8 @@ public class PlayerController : MonoBehaviour {
 			canMove = false;
 			canJump = false;
 
-			Instantiate(explosion, transform.position, Quaternion.identity);
+			//Instantiate(explosion, transform.position, Quaternion.identity);
+			explosion.SetActive(true);
 
 			audioManager.deathSound.Play();
 		}

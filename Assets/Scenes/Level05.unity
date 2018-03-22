@@ -5266,6 +5266,11 @@ Prefab:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 2137760151}
+    - target: {fileID: 114818910930579598, guid: b1ddae1ba5ef341caab981df0b9744e2,
+        type: 2}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 1571022979}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1ddae1ba5ef341caab981df0b9744e2, type: 2}
   m_IsPrefabParent: 0
@@ -5280,6 +5285,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1571022976}
   m_Script: {fileID: 11500000, guid: 99bbfa531040843adbe46c153a648e66, type: 3}
+--- !u!1 &1571022979 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1024270848200202, guid: b1ddae1ba5ef341caab981df0b9744e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1571022976}
 --- !u!1001 &1589534183
 Prefab:
   m_ObjectHideFlags: 0
