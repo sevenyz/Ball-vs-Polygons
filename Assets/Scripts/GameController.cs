@@ -12,7 +12,9 @@ public class GameController : MonoBehaviour {
 	[SerializeField]
 	bool hasStarted;
 	[SerializeField]
-	bool isPaused;
+	public bool isPaused;
+
+	public AudioManager audioManager;
 
 	public GameObject startText;
 	public GameObject pauseText;
@@ -69,6 +71,7 @@ public class GameController : MonoBehaviour {
 			pauseText.gameObject.SetActive(false);
 			BlockPlayerMovement(false);
 		}
+		audioManager.selectionSound.Play();
 	}
 
 	void BlockPlayerMovement (bool block) {
@@ -83,5 +86,6 @@ public class GameController : MonoBehaviour {
 
 	public void LoadMenu () {
 		SceneManager.LoadScene(0);
+		audioManager.selectionSound.Play();
 	}
 }

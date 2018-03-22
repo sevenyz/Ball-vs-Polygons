@@ -119,6 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasStarted: 0
   isPaused: 0
+  audioManager: {fileID: 0}
   startText: {fileID: 0}
   pauseText: {fileID: 0}
 --- !u!114 &114748896300914264
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 392b89868981f4d56b9a45d40731ed16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   playerColor: 0
   whiteSprite: {fileID: 21300000, guid: 918eb4f98a2a24835bfc851d8b6bb2c2, type: 3}
   redSprite: {fileID: 21300000, guid: 7cca29662a22447cfa50c0801e4f471c, type: 3}
@@ -148,10 +150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71752f6950c3e40789f673b7febf9d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   canMove: 0
   canJump: 0
   levelCompleted: 0
   levelWonText: {fileID: 0}
+  explosion: {fileID: 1598174729411258, guid: 7640cef58255b49cb975ad6694923cde, type: 2}
   jumpForce: 2
   moveSpeed: 12
 --- !u!212 &212271897956233960

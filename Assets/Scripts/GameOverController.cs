@@ -5,23 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class GameOverController : MonoBehaviour {
 
-	Animator animator;
 	Rigidbody2D rb2d;
-
+	SpriteRenderer spriteRenderer;
+	
 	public GameObject gameOverText;
 	
 	public bool gameOver;
 
-	void Awake() {
-		animator = GetComponent<Animator>();	
+	void Awake() {	
 		rb2d = GetComponent<Rigidbody2D>();
+		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 
 	void Update () {
 		if (gameOver) {
 			gameOverText.SetActive(true);
-			animator.SetBool("gameOver", true);
 			rb2d.simulated = false;
+
+			spriteRenderer.enabled = false;
 
 			if (Input.GetKeyDown(KeyCode.Return)) {
 				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
